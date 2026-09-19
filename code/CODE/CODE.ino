@@ -1,7 +1,7 @@
 /* Blynk Configuration - MUST be at the very top */
 #define BLYNK_TEMPLATE_ID "TMPL6QoweDJzS"
 #define BLYNK_TEMPLATE_NAME "Air Quality"
-#define BLYNK_AUTH_TOKEN "xGYT7YfSqaFX_2YWvXUJOhMSf1q-kn_g"
+#define BLYNK_AUTH_TOKEN "YOUR_BLYNK_AUTH_TOKEN"
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
@@ -12,8 +12,8 @@
 #include <DHT.h>
 
 // --- WiFi Credentials ---
-char ssid[] = "HUAWEI_H112_DEA2";
-char pass[] = "17ARQN13NFE";
+char ssid[] = "YOUR_WIFI_SSID";
+char pass[] = "YOUR_WIFI_PASSWORD";
 
 // --- Pin Definitions ---
 #define DHTPIN 33          // DHT22 data pin
